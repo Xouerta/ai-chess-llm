@@ -1,0 +1,10 @@
+provider: autogen_ext.models.openai.OpenAIChatCompletionClient
+config:
+  model: qwen2.5:3b
+  base_url: http://localhost:11434/v1
+  api_key: ollama
+  model_info:
+    vision: false
+    function_calling: true
+    json_output: false
+    family: unknown
